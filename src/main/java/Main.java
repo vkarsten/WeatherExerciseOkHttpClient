@@ -10,9 +10,9 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    public static final String BASE_URL = "http://api.weatherapi.com/v1";
-    public static final String ENDPOINT = "/current.json";
-    public static final String API_KEY = ""; // put API key here
+    private static final String BASE_URL = "http://api.weatherapi.com/v1";
+    private static final String ENDPOINT = "/current.json";
+    private static final String API_KEY = ""; // put API key here
     private static final OkHttpClient CLIENT = new OkHttpClient();
 
     public static void main(String[] args) throws IOException {
